@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 400px;
+  height: 250px;
+  background-color: #e2edff;
+  border-radius: 10px;
+}
+.judul {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.judul_pertanyaan {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+.input_pertanyaan {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+input {
+  width: 200px;
+  height: 20px;
+  outline: 0;
+  padding-left: 5px;
+}
+.hasil_jawaban {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
